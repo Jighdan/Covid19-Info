@@ -15,16 +15,32 @@
 
         
         <main id="fullpage">
-            <div class="section" id="what"></div>
-            <div class="section" id="how"></div>
-            <div class="section" id="symptoms"></div>
-            <div class="section" id="care"></div>
-            <div class="section" id="about"></div>
+            <div class="section" id="what" data-anchor="whatSection">
+                
+            </div>
+
+            <div class="section" id="how" data-anchor="howSection">
+
+            </div>
+
+            <div class="section" id="symptoms" data-anchor="symptomsSection">
+
+            </div>
+
+            <div class="section" id="care" data-anchor="careSection">
+
+            </div>
+
+            <div class="section" id="about" data-anchor="aboutSection">
+
+            </div>
         </main>
         
         <!--Full Page Initialize-->
         <script type="text/javascript">
-            new fullpage("#fullpage", {});
+            new fullpage("#fullpage", {
+                navigation: true,
+            });
         </script>
     </body>
 </html>
