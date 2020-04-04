@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "fullpage.js",
+      "/home/jighdan/Covid19-Info"
+    ]
+  ],
+  "_from": "fullpage.js@latest",
+  "_hasShrinkwrap": false,
+  "_id": "fullpage.js@3.0.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fullpage.js",
+  "_nodeVersion": "10.16.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/fullpage.js_3.0.8_1574691780063_0.24751483466558644"
+  },
+  "_npmUser": {
+    "email": "atrigol@gmail.com",
+    "name": "alvarotrigo"
+  },
+  "_npmVersion": "6.4.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fullpage.js",
+    "raw": "fullpage.js",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fullpage.js/-/fullpage.js-3.0.8.tgz",
+  "_shasum": "4d89a87d36c30c0866c3dfec5e6cb363902f97b2",
+  "_shrinkwrap": null,
+  "_spec": "fullpage.js",
+  "_where": "/home/jighdan/Covid19-Info",
+  "authors": [
+    "Alvaro Trigo https://github.com/alvarotrigo"
+  ],
+  "bugs": {
+    "url": "https://github.com/alvarotrigo/fullPage.js/issues"
+  },
+  "dependencies": {},
+  "description": "Create beautiful fullscreen scrolling websites",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 16,
+    "integrity": "sha512-r4B/MNuxylgzSlY+w4klD0lYYlmzEy7doDvurupAuO1ObKBgu9EB5GPuoeJTP7t/njFlzAM/Wu/I+FL3WvudCw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd2+PECRA9TVsSAnZWagAARMgQAJ/vmoMI8JHu990Ea29e\nvvz8gjDhQls/N8SdTh1QJHcGKoqDoz8aHBE1vTlmSM2CvYmvGT0vzbrspRnP\n4GUPS50v4cevxOGkrRRPX3PmjAAGpLoiv/ztAmpR6ReDSuX8qtQay7z0HTzL\nyXnxns2XtvhLtVuwescPKY17+ObSf1ZVSFXx2F8ywLlSwYGZqv6OSnWW/3M0\nzuvXpu+g5ykfh5VqoF1P38nUVT9WQYMO5Jjcz6WjB045pnTGX+GiLFj47sTc\naNVxOPmFusztjOHzz92lq5hhq9Ta9UhiGPRDRFbMzQf8/HgtXDscGvRiMgMq\nRenrkldSpk4mVlLKreT2dowfXG3eVAiykSTbVifjw9SB3afdPxFwsZ1EQaXI\namM6amMKcHR1JapJMw5hpMKPfP4detDqKTaue7ILa+zvXUW5tKlYwqgLcyv7\nCs8EDtwEZvCmIAlkHhphDORZ3wcpqeS5w4RVQP9n4Wwq4gUmvKjMNf4wJuCs\nJu5sg0a9A7Kbow/AE7qCFfJ0TTCX4dFacEZ57twl3MMOTwtXMQOWGp5m3V6V\n46OSCZ3tJEbsiFfOwBTZ2eDcLFvEj7dDOrd548hlyL5DZRiPV7CMn0tGyJ/W\nPMbCawPLCvuOiviJvi5INoPN9Z8AM6Oxezopvqw3iz5nPKXhcxh/CYtOC5oz\nl1Pf\r\n=DiVU\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "4d89a87d36c30c0866c3dfec5e6cb363902f97b2",
+    "tarball": "https://registry.npmjs.org/fullpage.js/-/fullpage.js-3.0.8.tgz",
+    "unpackedSize": 850692
+  },
+  "gitHead": "9719c293333c59b3cfc206aafc4ecfe58dcd9e72",
+  "homepage": "https://github.com/alvarotrigo/fullPage.js",
+  "keywords": [
+    "fullpage",
+    "fullpagejs",
+    "javacript",
+    "jquery",
+    "mousewheel",
+    "one_page",
+    "onepage",
+    "scroll",
+    "scrolling",
+    "sections",
+    "single_page",
+    "slidehow",
+    "slides",
+    "sliding",
+    "snap",
+    "swipe"
+  ],
+  "license": "GPL-3.0",
+  "main": "dist/fullpage.js",
+  "maintainers": [
+    {
+      "name": "alvarotrigo",
+      "email": "atrigol@gmail.com"
+    }
+  ],
+  "name": "fullpage.js",
+  "namespace": "fullpage_api",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alvarotrigo/fullPage.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.0.8"
+}
