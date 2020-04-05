@@ -1,79 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Covid-19 Info</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" type="text/css" href="scripts/fullpage.js/dist/fullpage.css">
-        <script type="text/javascript" src="scripts/fullpage.js/dist/fullpage.js"></script>
-        
-    </head>
-    <body>
-        <nav class="menu">
-            <header>
-                <h1>CORONAVIRUS</h1>
-                <h2>INFORMATIVE WEBSITE</h2>
-            </header>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  MENU
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">HOW IT SPREAD?</a>
-                  <a class="dropdown-item" href="#">HOW TO AVOID IT?</a>
-                  <a class="dropdown-item" href="#">WHEN TO SEEK A DOCTOR?</a>
-                </div>
-            </div>
-        </nav>
-        
-        <main id="fullpage">
-            <div class="section" id="what" data-anchor="whatSection">
-                <h1 class="section-titular">What is it?</h1>
-                <section class="section-content">
-                    <p>To understand what COVID-19 is we must define what a coronavirus is first; coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).</p>
-                    <p>COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.</p>
-                </section>
-            </div>
 
-            <div class="section" id="how" data-anchor="howSection">
-                <h1 class="section-titular">How does it spread?</h1>
-                <section class="section-content">
-                    <p>People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.</p>
-                </section>
-            </div>
+<head>
+    <title>Covid-19 Info</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="scripts/fullpage.js/dist/fullpage.css">
+    <script type="text/javascript" src="scripts/fullpage.js/dist/fullpage.js"></script>
 
-            <div class="section" id="symptoms" data-anchor="symptomsSection">
-                <h1 class="section-titular">What are the Symptoms</h1>
-                <section class="section-content">
-                    <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.</p>
-                    <p>While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others. </p>
-                </section>
-            </div>
+</head>
 
-            <div class="section" id="care" data-anchor="careSection">
-                <h1 class="section-titular">Prevention & Care</h1>
-                <section class="section-content">
-                    <ul id="taking-care">
-                        <li>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</li>
-                        <li>Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.</li>
-                        <li>Avoid touching eyes, nose and mouth.</li>
-                        <li>Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.</li>
-                        <li>Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.</li>
-                    </ul>
-                </section>
+<body>
+    <nav class="menu">
+        <header>
+            <h1>CORONAVIRUS</h1>
+            <h2>INFORMATIVE WEBSITE</h2>
+        </header>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                MENU
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="what">What is it?</a>
+                <a class="dropdown-item" href="how">How does it spread?</a>
+                <a class="dropdown-item" href="symptoms">What are the symptoms?</a>
+                <a class="dropdown-item" href="care">Prevention & Care</a>
+                <a class="dropdown-item" href="about">About this Website</a>
             </div>
+        </div>
+    </nav>
 
-            <div class="section" id="about" data-anchor="aboutSection">
-                <h1 class="section-titular">About this Website</h1>
-                <section class="section-content">
-                    
-                </section>
-            </div>
-        </main>
-        
-        <script type="text/javascript" src="scripts/fullPageInit.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+    <main id="fullpage">
+        <div class="section" id="what" data-anchor="whatSection">
+            <h1 class="section-titular">What is it?</h1>
+            <section class="section-content">
+                <p>To understand what COVID-19 is we must define what a coronavirus is first; coronaviruses are a large
+                    family of viruses which may cause illness in animals or humans. In humans, several coronaviruses are
+                    known to cause respiratory infections ranging from the common cold to more severe diseases such as
+                    Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).</p>
+                <p>COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus
+                    and disease were unknown before the outbreak began in Wuhan, China, in December 2019.</p>
+            </section>
+        </div>
+
+        <div class="section" id="how" data-anchor="howSection">
+            <h1 class="section-titular">How does it spread?</h1>
+            <section class="section-content">
+                <p>People can catch COVID-19 from others who have the virus. The disease can spread from person to
+                    person through small droplets from the nose or mouth which are spread when a person with COVID-19
+                    coughs or exhales. These droplets land on objects and surfaces around the person. Other people then
+                    catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth.
+                    People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs
+                    out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a
+                    person who is sick.</p>
+            </section>
+        </div>
+
+        <div class="section" id="symptoms" data-anchor="symptomsSection">
+            <h1 class="section-titular">What are the Symptoms</h1>
+            <section class="section-content">
+                <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have
+                    aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually
+                    mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel
+                    unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1
+                    out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing.
+                    Older people, and those with underlying medical problems like high blood pressure, heart problems or
+                    diabetes, are more likely to develop serious illness. People with fever, cough and difficulty
+                    breathing should seek medical attention.</p>
+                <p>While we are still learning about how COVID-2019 affects people, older persons and persons with
+                    pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or
+                    diabetes) appear to develop serious illness more often than others. </p>
+            </section>
+        </div>
+
+        <div class="section" id="care" data-anchor="careSection">
+            <h1 class="section-titular">Prevention & Care</h1>
+            <section class="section-content">
+                <ul id="taking-care">
+                    <li>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap
+                        and water.</li>
+                    <li>Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or
+                        sneezing.</li>
+                    <li>Avoid touching eyes, nose and mouth.</li>
+                    <li>Make sure you, and the people around you, follow good respiratory hygiene. This means covering
+                        your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the
+                        used tissue immediately.</li>
+                    <li>Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical
+                        attention and call in advance. Follow the directions of your local health authority.</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="section" id="about" data-anchor="aboutSection">
+            <h1 class="section-titular">About this Website</h1>
+            <section class="section-content">
+                <p>This website spread awareness to prevent Coronavirus</p>
+            </section>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="scripts/fullPageInit.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
