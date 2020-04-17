@@ -2,47 +2,29 @@
 <html lang="en">
   <head>
     <title>Covid-19 Info</title>
-    <link rel="icon" href="virus-icon.png" type="image/icon type" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@700&display=swap" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon-virus.png" type="image/icon type" />
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
-    <nav class="menu">
+    <nav class="menu-container">
       <header>
-        <h1>CORONAVIRUS</h1>
-        <h2>INFORMATIVE WEBSITE</h2>
+        <h1>Covid-19<img src="assets/favicon-virus.png"/></h1>
+        <h2>Informative Site</h2>
       </header>
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          MENU
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#what">What is it?</a>
-          <a class="dropdown-item" href="#how">How does it spread?</a>
-          <a class="dropdown-item" href="#symptoms">What are the symptoms?</a>
-          <a class="dropdown-item" href="#care">Prevention & Care</a>
-          <a class="dropdown-item" href="#faq">Questions & Answers</a>
-          <a class="dropdown-item" href="#about">About this Website</a>
-        </div>
-      </div>
+      <nav class="menu">
+          <a class="menu-item" href="#what">What is it?</a>
+          <a class="menu-item" href="#how">How does it spread?</a>
+          <a class="menu-item" href="#symptoms">What are the symptoms?</a>
+          <a class="menu-item" href="#care">Prevention & Care</a>
+          <a class="menu-item" href="#faq">Questions & Answers</a>
+          <a class="menu-item" href="#about">About this Website</a>
+      </nav>
     </nav>
 
-    <main id="fullpage">
-      <div class="section" id="what">
+    <main>
+      <div class="section what">
         <h1 class="section-titular">What is it?</h1>
         <section class="section-content">
           <p>
@@ -58,7 +40,7 @@
         </section>
       </div>
 
-      <div class="section" id="how">
+      <div class="section how">
         <h1 class="section-titular">How does it spread?</h1>
         <section class="section-content">
           <p>
@@ -72,7 +54,7 @@
         </section>
       </div>
 
-      <div class="section" id="symptoms">
+      <div class="section symptoms">
         <h1 class="section-titular">What are the Symptoms</h1>
         <section class="section-content">
           <p>
@@ -92,7 +74,7 @@
         </section>
       </div>
 
-      <div class="section" id="care">
+      <div class="section care">
         <h1 class="section-titular">Prevention & Care</h1>
         <section class="section-content">
           <ul id="taking-care">
@@ -116,7 +98,7 @@
         </section>
       </div>
 
-      <div class="section" id="faq">
+      <div class="section faq">
         <h1 class="section-titular">Questions & Answers</h1>
         <section class="section-content">
           <button class="accordion">How likely am I to catch COVID-19?</button>
@@ -204,7 +186,7 @@
         </section>
       </div>
 
-      <div class="section" id="about">
+      <div class="section about">
         <h1 class="section-titular">About this Website</h1>
         <section class="section-content">
           <p>This Website's purpose is to spread awareness on novel COVID-19</p>
@@ -229,11 +211,6 @@
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
   </body>
