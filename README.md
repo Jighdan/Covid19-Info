@@ -1,8 +1,8 @@
-### COVID-19 Info
+## COVID-19 Info
 A Website that displays useful information on the novel virus Covid-19
 
-- [] Change format to more of a Technical Documentation Page
-- [] 
+### Tasks
 - [] Adding Filipino and Spanish language support (Generating it with JS)
-- [] Use of Sass for styling
-- [x] Create a favicon for the website
+- [x] Use of Sass for styling
+- [x] Have a favicon for the website
+- [] Deploy to Netlify
