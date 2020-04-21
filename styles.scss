@@ -38,15 +38,19 @@ body {
         position: sticky;
         top: 0;
 
-        li a {
-            display: block;
-            padding: 0.5rem 1rem;
-            color: $gray;
-            text-decoration: none;
+        li {
+            transition: background-color 2s ease-in;
 
-            .current {
-                background: $gray;
+            a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: white;
+                text-decoration: none;
+            }
+
+            :hover {
                 color: $deepBlue;
+                background-color: white;
             }
         }
     }
@@ -78,6 +82,7 @@ main {
     padding: 18px;
     width: 100%;
     text-align: left;
+    font-size: calc(0.65rem + 0.75vw);
     border: none;
     outline: none;
     transition: 0.4s;
@@ -94,7 +99,7 @@ main {
     background-color: $gray;
 }
 
-.panel p {font-size: 0.95rem; font-weight: lighter;}
+.panel p {font-size: calc(0.50rem + 0.60vw); font-weight: lighter;}
 
 footer {
     grid-column: 1 / 3;

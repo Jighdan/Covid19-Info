@@ -40,16 +40,21 @@ body {
   top: 0;
 }
 
+.menu ul li {
+  -webkit-transition: background-color 2s ease-in;
+  transition: background-color 2s ease-in;
+}
+
 .menu ul li a {
   display: block;
   padding: 0.5rem 1rem;
-  color: #BCBABE;
+  color: white;
   text-decoration: none;
 }
 
-.menu ul li a .current {
-  background: #BCBABE;
+.menu ul li :hover {
   color: #1995AD;
+  background-color: white;
 }
 
 @media (min-heighy: 300px) {
@@ -78,6 +83,7 @@ main section h1 {
   padding: 18px;
   width: 100%;
   text-align: left;
+  font-size: calc(0.65rem + 0.75vw);
   border: none;
   outline: none;
   -webkit-transition: 0.4s;
@@ -100,7 +106,7 @@ main section h1 {
 }
 
 .panel p {
-  font-size: 0.95rem;
+  font-size: calc(0.50rem + 0.60vw);
   font-weight: lighter;
 }
 
@@ -134,3 +140,4 @@ footer span a {
 footer span a:hover {
   color: white;
 }
+/*# sourceMappingURL=styles.css.map */
