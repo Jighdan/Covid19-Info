@@ -1,81 +1,94 @@
 $font: 'Montserrat', sans-serif;
 $calc20-1: calc(20% - 1rem);
+$deepBlue: #1995AD;
+$softBlue: #A1D6E2;
+$gray: #BCBABE;
 
 html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
     font-family: $font;
+    scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    justify-content: space-between;
-    height: inherit;
-    width: auto;
+    margin: 0;
+    display: grid;
+    grid-template-columns: min-content 1fr;
 }
 
-.menu-container {
-    flex: 1 1 auto;
-    display: flex;
-    flex-direction: column;
+.hero {
+    grid-column: 1 / 3;
+    background-color: $softBlue;
+    color: white;
     padding: 1rem;
-    width: $calc20-1;
-    min-width: max-content;
+    text-align: center;
 
-    header h1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-bottom: 5%;
-        font-size: calc(1.2rem + 1vw);
-        font-weight: 750;
-        text-transform: uppercase;
+    h1 {
+        font-size: calc(1.5rem + 1.5vw);
     }
+}
 
-    header h2 {
-        font-size: calc(0.9rem + 0.9vw);
-        font-weight: 500;
-        margin: 5% auto 10% auto;
-    }
+.menu {
+    white-space: nowrap;
+    background-color: $deepBlue;
 
-    .menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 50% 0;
+        position: sticky;
+        top: 0;
 
-        .menu-item {
-            margin: 5% 0;
-            font-size: calc(0.7rem + 0.7vw);
-            color: black;
+        li {
+            transition: background-color 2s ease-in;
+
+            a {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: white;
+                text-decoration: none;
+            }
+
+            :hover {
+                color: $deepBlue;
+                background-color: white;
+            }
         }
     }
 }
 
+@media (min-heighy: 300px) {
+    .menu ul {
+        padding: 0;
+    }
+}
+
 main {
-    margin-right: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: calc(80% - (20% - 1rem));
+    padding-bottom: 4rem;
+
+    section {
+        padding: 2rem 3rem;
+        margin: 0 0 1rem 0;
+
+        h1 {
+            font-size: calc(1.2rem + 1.3vw);
+        }
+    }
 }
 
 .accordion {
-    background-color: var(--colorGray);
+    background-color: $softBlue;
+    color: $deepBlue;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     text-align: left;
+    font-size: calc(0.65rem + 0.75vw);
     border: none;
     outline: none;
     transition: 0.4s;
 }
 
-.active, .accordion:hover {background-color: var(--colorDimGray);}
+.active, .accordion:hover {background-color: $deepBlue; color: white;}
 
 .panel {
     margin: 0 auto;
@@ -83,6 +96,35 @@ main {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    background-color: $gray;
 }
 
-.panel p {font-size: 0.95rem; font-weight: lighter;}
+.panel p {font-size: calc(0.50rem + 0.60vw); font-weight: lighter;}
+
+footer {
+    grid-column: 1 / 3;
+    background: $gray;
+    padding: 2rem 1rem;
+
+    a {
+        text-decoration: none;
+        color: $deepBlue;
+    }
+    
+    p {
+        text-align: center;
+    }
+
+    span {
+        float: right;
+
+        a {
+            text-decoration: underline;
+            transition: color 1s;
+        }
+
+        a:hover {
+            color: white;
+        }
+    }
+}
