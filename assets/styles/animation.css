@@ -1,0 +1,32 @@
+/* Keyframes */
+/* Transitions & Pseudo-selectors */
+.menu-container .menu .menu-item {
+  -webkit-transition: background-color 2s ease-in;
+  transition: background-color 2s ease-in;
+}
+
+.menu-container .menu .menu-item :hover {
+  color: #1995AD;
+  background-color: white;
+}
+
+.main-info .section-container .accordion {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.main-info .section-container .accordion :hover {
+  background-color: #1995AD;
+  color: white;
+}
+
+.main-info .section-container .accordion .active {
+  background-color: #1995AD;
+  color: white;
+}
+
+.main-info .section-container .panel {
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+/*# sourceMappingURL=animation.css.map */

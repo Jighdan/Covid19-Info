@@ -26,39 +26,43 @@ body {
   font-size: calc(1.5rem + 1.5vw);
 }
 
-.menu {
+.menu-container {
   white-space: nowrap;
   background-color: #1995AD;
 }
 
-.menu ul {
+.menu-container .menu {
   list-style: none;
-  margin: 0;
-  padding: 50% 0;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
-.menu ul li {
+.menu-container .menu ul {
+  list-style: none;
+  padding: 50% 0;
+  margin: 0;
+}
+
+.menu-container .menu li {
   -webkit-transition: background-color 2s ease-in;
   transition: background-color 2s ease-in;
 }
 
-.menu ul li a {
+.menu-container .menu li a {
   display: block;
   padding: 0.5rem 1rem;
   color: white;
   text-decoration: none;
 }
 
-.menu ul li :hover {
+.menu-container .menu li :hover {
   color: #1995AD;
   background-color: white;
 }
 
 @media (min-heighy: 300px) {
-  .menu ul {
+  .menu.container ul {
     padding: 0;
   }
 }

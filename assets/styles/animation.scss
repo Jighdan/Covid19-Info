@@ -1,0 +1,42 @@
+$font: 'Montserrat', sans-serif;
+$deepBlue: #1995AD;
+$softBlue: #A1D6E2;
+$gray: #BCBABE;
+
+/* Keyframes */
+
+
+/* Transitions & Pseudo-selectors */
+.menu-container {
+  .menu {
+    .menu-item {
+      transition: background-color 2s ease-in;
+
+      :hover {
+        color: $deepBlue;
+        background-color: white;
+      }
+    }
+  }
+}
+
+.main-info {
+  .section-container {
+    .accordion {
+      transition: 0.4s;
+
+      :hover {
+        background-color: $deepBlue;
+        color: white;
+      }
+
+      .active {
+        background-color: $deepBlue;
+        color: white;
+      }
+    }
+    .panel {
+      transition: max-height 0.2s ease-out;
+    }
+  }
+}
