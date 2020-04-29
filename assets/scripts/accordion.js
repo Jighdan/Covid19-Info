@@ -1,7 +1,7 @@
-var acc = document.getElementsByClassName("accordion");
-var i;
+/*jshint esversion: 6 */
+const acc = document.getElementsByClassName("accordion");
 
-for (i = 0; i < acc.length; i++) {
+for (let i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
