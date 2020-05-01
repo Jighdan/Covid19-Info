@@ -93,6 +93,3 @@ const translation = {
       about: "Magbasa pa" 
   }
 };
-
-const sectionWhat = document.getElementById("sectionWhat");
-sectionWhat.querySelector("h1").textContent = translation.spanish.what[0];
