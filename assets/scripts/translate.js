@@ -64,10 +64,10 @@ const translation = {
 
   filipino:
     {
-      what: ["Ano yun?",
+      what: ["Ano ang Covid19?",
             "Upang maunawaan kung ano ang COVID-19 ay dapat nating tukuyin kung ano ang una sa isang coronavirus; Ang mga coronavirus ay isang malaking pamilya ng mga virus na maaaring magdulot ng sakit sa mga hayop o tao. Sa mga tao, ang ilang mga coronavirus ay kilala upang maging sanhi ng impeksyon sa paghinga mula sa karaniwang sipon hanggang sa mas malubhang sakit tulad ng Middle East Respiratory Syndrome (MERS) at Severe Acute Respiratory Syndrome (SARS).\n\nCOVID-19 ay ang nakakahawang sakit na dulot ng impeksyon ang pinakahuling natuklasan na coronavirus. Ang bagong virus at sakit na ito ay hindi alam bago magsimula ang pagsiklab sa Wuhan, China, noong Disyembre 2019."],
-      how: ["Paano ito kumalat?", 
-            "Maaaring mahuli ng mga tao ang COVID-19 mula sa iba na may virus. Ang sakit ay maaaring kumalat mula sa bawat tao sa pamamagitan ng maliit na mga patak mula sa ilong o bibig na kumakalat kapag ang isang taong may COVID-19 na ubo o huminga. Ang mga droplet na ito ay lumapag sa mga bagay at ibabaw sa paligid ng tao. Ang ibang mga tao pagkatapos ay mahuli ang COVID-19 sa pamamagitan ng pagpindot sa mga bagay o ibabaw na ito, pagkatapos ay hawakan ang kanilang mga mata, ilong o bibig. Maaari ring mahuli ng mga tao ang COVID-19 kung huminga sila sa mga patak mula sa isang taong may COVID-19 na ubo o humihinga ng mga patak. Ito ang dahilan kung bakit mahalagang manatiling higit sa 1 metro (3 piye) ang layo mula sa isang taong may sakit."],
+      how: ["Paano ito kumakalat?", 
+            "Maaaring makuha ng mga tao ang COVID-19 mula sa iba na may virus. Ang sakit ay maaaring kumalat mula sa bawat tao sa pamamagitan ng maliit na mga patak mula sa ilong o bibig na kumakalat kapag ang isang taong may COVID-19 na ubo o huminga. Ang mga droplet na ito ay lumapag sa mga bagay at ibabaw sa paligid ng tao. Ang ibang mga tao pagkatapos ay mahuli ang COVID-19 sa pamamagitan ng pagpindot sa mga bagay o ibabaw na ito, pagkatapos ay hawakan ang kanilang mga mata, ilong o bibig. Maaari ring mahuli ng mga tao ang COVID-19 kung huminga sila sa mga patak mula sa isang taong may COVID-19 na ubo o humihinga ng mga patak. Ito ang dahilan kung bakit mahalagang manatiling higit sa 1 metro (3 piye) ang layo mula sa isang taong may sakit."],
       symptoms: ["Ano ang mga sintomas ng covid-19?",
             "Ang pinakakaraniwang sintomas ng COVID-19 ay lagnat, pagkapagod, at tuyong ubo. Ang ilang mga pasyente ay maaaring magkaroon ng pananakit at pananakit, kasikipan ng ilong, matipid na ilong, namamagang lalamunan o pagtatae. Ang mga sintomas na ito ay karaniwang banayad at nagsisimula nang unti-unti. Ang ilang mga tao ay nahawahan ngunit hindi nagkakaroon ng anumang mga sintomas at hindi nakakaramdam ng hindi malusog. Karamihan sa mga tao (tungkol sa 80%) ay nakabawi mula sa sakit nang hindi nangangailangan ng espesyal na paggamot. Halos 1 sa bawat 6 na tao na nagkakaroon ng COVID-19 ay nagkasakit ng malubha at nahihirapan sa paghinga. Ang mga matatandang tao, at ang mga may kalakip na mga problemang medikal tulad ng mataas na presyon ng dugo, mga problema sa puso o diyabetis, ay mas malamang na magkaroon ng malubhang sakit. \n\nAng mga taong may lagnat, ubo at kahirapan sa paghinga ay dapat humingi ng medikal na atensyon. ang sakit, cancer o diabetes) ay lilitaw na magkaroon ng malubhang sakit nang mas madalas kaysa sa iba."],
       prevention: ["Pag-iwas & Pangangalaga", 
@@ -80,7 +80,7 @@ const translation = {
             ["Paano malamang ang isang I ay mahuli ang COVID-19?", 
                   "Panganib siya ay nakasalalay sa kung nasaan ka - at mas partikular, kung mayroong isang pag-aalsa ng COVID-19. Para sa karamihan ng mga tao sa karamihan ng mga lokasyon ang panganib na mahuli ang COVID-19 ay mababa pa rin. Gayunpaman, may mga lugar na ngayon sa buong mundo (mga lungsod o lugar) kung saan kumakalat ang sakit. Para sa mga taong naninirahan, o pagbisita, ang mga lugar na ito ang panganib na mahuli ang COVID-19 ay mas mataas. Ang mga gobyerno at awtoridad sa kalusugan ay nagsasagawa ng masigasig na pagkilos sa tuwing natukoy ang isang bagong kaso ng COVID-19. Siguraduhing sumunod sa anumang lokal na mga paghihigpit sa paglalakbay, kilusan o malaking pagtitipon. Ang pakikipagtulungan sa mga pagsisikap sa pagkontrol sa sakit ay mabawasan ang iyong panganib sa paghuli o pagkalat ng COVID-19. Ang mga COVID-19 na pag-iwas ay maaaring nilalaman at itigil ang paghahatid, tulad ng ipinakita sa Tsina at ilang iba pang mga bansa. Sa kasamaang palad, ang mga bagong pagsiklab ay maaaring lumitaw nang mabilis. Mahalagang malaman ang sitwasyon kung nasaan ka o balak mong puntahan."],
             ["Mayroon bang bakuna, gamot o paggamot para sa COVID-19?", 
-                  "Hindi pa. Sa ngayon, walang bakuna at walang tiyak na gamot na antiviral upang maiwasan o gamutin ang COVID-2019. Gayunpaman, ang mga apektado ay dapat tumanggap ng pangangalaga upang mapawi ang mga sintomas. Ang mga taong may malubhang sakit ay dapat na ma-ospital. Karamihan sa mga pasyente ay nakabawi salamat sa suporta sa suporta."],
+                  "Wala pa. Sa ngayon, walang bakuna at walang tiyak na gamot na antiviral upang maiwasan o gamutin ang COVID-2019. Gayunpaman, ang mga apektado ay dapat tumanggap ng pangangalaga upang mapawi ang mga sintomas. Ang mga taong may malubhang sakit ay dapat na ma-ospital. Karamihan sa mga pasyente ay nakabawi salamat sa suporta."],
             ["Mayroon bang mga gamot o panggagamot na maaaring maiwasan o pagalingin ang COVID-19?", 
                   "Habang ang ilang mga kanluranin, tradisyonal o mga remedyo sa bahay ay maaaring magbigay ng ginhawa at maibsan ang mga sintomas ng COVID-19, WALANG katibayan na ang kasalukuyang gamot ay maaaring maiwasan o mapagaling ang sakit."],
             ["Dapat ba akong magsuot ng mask upang maprotektahan ang aking sarili?",
@@ -93,3 +93,32 @@ const translation = {
       about: "Magbasa pa" 
   }
 };
+
+const access = {
+      languageButtons: document.querySelectorAll(".language"),
+      sideBarNavElements: document.querySelectorAll(`.menu-item > a`),
+
+      getSideBarElementTranslation: function(lang, element) {
+            const section = element.dataset.key;
+            element.innerText = translation[`${lang}`][`${section}`][0];
+      },
+
+};
+
+// a function to apply translations to the elements
+const translate = (lang) => {
+      // Elements Selection
+      const sectionTitles = document.querySelectorAll(`.section-title`);
+
+      // Applyting Translation
+      access.sideBarNavElements.forEach(element => access.getSideBarElementTranslation(lang, element));
+
+      
+};
+
+access.languageButtons.forEach(element => {
+      element.addEventListener("click", () => {
+            const lang = element.dataset.key;
+            translate(lang);
+      });
+});
