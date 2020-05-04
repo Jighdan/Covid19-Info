@@ -97,22 +97,24 @@ const translation = {
 const access = {
       languageButtons: document.querySelectorAll(".language"),
       sideBarNavElements: document.querySelectorAll(`.menu-item > a`),
+      sectionTitles: document.querySelectorAll(`.section-title`),
 
-      getSideBarElementTranslation: function(lang, element) {
+      getElementTranslation: (lang, element) => {
             const section = element.dataset.key;
             element.innerText = translation[`${lang}`][`${section}`][0];
       },
+      getSectionTitleTranslation: (lang, element) => {
+
+      }
 
 };
 
 // a function to apply translations to the elements
 const translate = (lang) => {
-      // Elements Selection
-      const sectionTitles = document.querySelectorAll(`.section-title`);
-
-      // Applyting Translation
-      access.sideBarNavElements.forEach(element => access.getSideBarElementTranslation(lang, element));
-
+      // Side-Bar Elements
+      access.sideBarNavElements.forEach(element => access.getElementTranslation(lang, element));
+      // Section Titles
+      access.sectionTitles.forEach(element => access.getElementTranslation(lang, element));
       
 };
 
@@ -122,3 +124,6 @@ access.languageButtons.forEach(element => {
             translate(lang);
       });
 });
+
+const textElement = document.createElement("p");
+textElement.textContent = translation.english.what[1];

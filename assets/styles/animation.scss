@@ -6,16 +6,11 @@ $gray: #BCBABE;
 /* Keyframes */
 
 
-/* Transitions & Pseudo-selectors */
+/* Transitions*/
 .menu-container {
   .menu {
     .menu-item {
       transition: background-color 2s ease-in;
-
-      :hover {
-        color: $deepBlue;
-        background-color: white;
-      }
     }
   }
 }
@@ -23,20 +18,37 @@ $gray: #BCBABE;
 .main-info {
   .section-container {
     .accordion {
-      transition: 0.4s;
+      transition: 0.4s;    
+    }
+    .panel {
+      transition: max-height 0.2s ease-out;
+    }
+  }
+}
 
+/* Pseudo Selectors */
+.menu-container {
+  .menu {
+    .menu-item {
+      :hover {
+        color: $deepBlue;
+        background-color: white;
+      }     
+    }
+  }
+}
+
+.main-info {
+  .section-container {
+    .accordion {
       :hover {
         background-color: $deepBlue;
         color: white;
       }
-
       .active {
         background-color: $deepBlue;
         color: white;
       }
-    }
-    .panel {
-      transition: max-height 0.2s ease-out;
     }
   }
 }

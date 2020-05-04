@@ -76,7 +76,7 @@ html {
 .hero {
   text-align: center;
   color: white;
-  background-color: #A1D6E2;
+  background-color: #010405;
 }
 
 .hero h1 {
@@ -85,7 +85,7 @@ html {
 
 .menu-container {
   white-space: nowrap;
-  background-color: #1995AD;
+  background-color: #FFC5BC;
 }
 
 .menu-container .menu-list {
@@ -94,7 +94,7 @@ html {
 
 .menu-container .menu-list .menu-item a {
   text-decoration: none;
-  color: white;
+  color: #0f0e0e;
 }
 
 .main-info .section-title {
@@ -104,7 +104,7 @@ html {
 .main-info .accordion {
   text-align: left;
   font-size: calc(0.65rem + 0.75vw);
-  color: #1995AD;
+  color: #010405;
   background-color: #A1D6E2;
   border: none;
   outline: none;
@@ -126,7 +126,7 @@ html {
 }
 
 .about .external-source {
-  color: #1995AD;
+  color: #010405;
   font-size: calc(0.65rem + 0.75vw);
 }
 
