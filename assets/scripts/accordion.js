@@ -1,10 +1,10 @@
 /*jshint esversion: 6 */
-const acc = document.getElementsByClassName("accordion");
+const accordion = document.getElementsByClassName("accordionordion");
 
-for (let i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+for (let i = 0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function() {
     this.classList.toggle("active");
-    var panel = this.nextElementSibling;
+    const panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {

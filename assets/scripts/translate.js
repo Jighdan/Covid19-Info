@@ -97,25 +97,37 @@ const translation = {
 const access = {
       languageButtons: document.querySelectorAll(".language"),
       sideBarNavElements: document.querySelectorAll(`.menu-item > a`),
-      sectionTitles: document.querySelectorAll(`.section-title`),
+      sectionTitles: document.querySelectorAll(`.section-container > h1`),
+      firstThreeSections: document.querySelectorAll(`#what-section, #how-section, #symptoms-section`),
 
-      getElementTranslation: (lang, element) => {
-            const section = element.dataset.key;
-            element.innerText = translation[`${lang}`][`${section}`][0];
+      getSideNavTranslation: (lang, element) => {
+            const datakey = element.dataset.key;
+            element.innerText = translation[`${lang}`][`${datakey}`][0];
       },
-      getSectionTitleTranslation: (lang, element) => {
+      getTitleTranslation: (lang, element) => {
+            const datakey = element.parentNode.dataset.key;
+            element.innerText = translation[`${lang}`][`${datakey}`][0];
+      },
 
-      }
-
+      singleTextElement: (lang, parentElement) => {
+            // Only applies for [What, How, Symptoms] sections
+            // Clean text
+            const datakey = parentElement.dataset.key;
+            const paragraph = document.createElement("p");
+            paragraph.classList.add("section-text");
+            paragraph.innerText = translation[`${lang}`][`${datakey}`][1];
+            parentElement.appendChild(paragraph);
+      },
 };
 
 // a function to apply translations to the elements
 const translate = (lang) => {
       // Side-Bar Elements
-      access.sideBarNavElements.forEach(element => access.getElementTranslation(lang, element));
+      access.sideBarNavElements.forEach(element => access.getSideNavTranslation(lang, element));
       // Section Titles
-      access.sectionTitles.forEach(element => access.getElementTranslation(lang, element));
-      
+      access.sectionTitles.forEach(element => access.getTitleTranslation(lang, element));
+      // What, How and Symptoms sections
+      access.firstThreeSections.forEach(element => access.singleTextElement(lang, element));
 };
 
 access.languageButtons.forEach(element => {
@@ -124,6 +136,3 @@ access.languageButtons.forEach(element => {
             translate(lang);
       });
 });
-
-const textElement = document.createElement("p");
-textElement.textContent = translation.english.what[1];

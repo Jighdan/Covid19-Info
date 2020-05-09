@@ -10,7 +10,10 @@ $gray: #BCBABE;
 .menu-container {
   .menu {
     .menu-item {
-      transition: background-color 2s ease-in;
+      transition: all 1.5s ease-in;
+      color: rgb(230, 230, 230);
+      background-color: rgb(7, 6, 6);
+      font-size:18px;
     }
   }
 }
